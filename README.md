@@ -1,12 +1,21 @@
-Power BI Dashboard Package
+# Multi-Channel Customer Interaction Quality Monitoring Dashboard
 
-Included files:
-- interactions_for_powerbi.csv
-- kpi_by_channel.csv
-- kpi_by_agent.csv
-- kpi_overall.csv
-- kpi_cards.png, avg_csat_by_channel.png, avg_handle_time_monthly.png, top_agents_table.png
-- POWERBI_DAX_and_INSTRUCTIONS.md
+*Technologies: Python, Pandas, SQL, Excel, Power BI/Tableau
 
-Open Power BI Desktop -> Get Data -> Text/CSV -> Load interactions_for_powerbi.csv
-Create measures from the DAX file and build visuals similar to the PNG mockups.
+## Project Overview
+This project simulates a customer service quality monitoring dashboard** for call, chat, and email interactions. It analyzes 1200+ interactions to track agent performance, response times, resolution rates, customer satisfaction (CSAT), and compliance.
+
+*Key Features:
+- Computed KPIs: Average Handle Time (AHT), First Call Resolution (FCR), CSAT, Compliance Violations
+- Created **quality score** for agent performance assessment
+- Generated **Power BI/Tableau-ready datasets** for interactive dashboards
+- Produced **mockup visuals** for KPI cards, channel comparison, monthly trends, and top agents
+- Actionable insights to identify performance gaps and improve service efficiency
+
+## Folder Structure
+- `data/` → CSV datasets
+- `visuals/` → Dashboard mockup images
+- `docs/` → DAX measures & instructions for Power BI
+- `README.md` → GitHub project summary
+
+
